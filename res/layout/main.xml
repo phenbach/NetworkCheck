@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff444444"
+    >
+    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="0dp" 
+	    android:layout_gravity="center" 
+	    android:gravity="center" 
+		android:textSize="20dp"
+		android:textColor="#ffffd800"
+		android:layout_weight="1"
+	android:text="@string/message"/>
+	<TextView  
+		android:id="@+id/netStatus"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="0dp" 
+	    android:layout_gravity="center" 
+	    android:gravity="center" 
+	    android:text="@string/no_network"
+		android:textStyle="bold"
+		android:textSize="24dp"
+		android:textColor="#ffffffff"
+		android:layout_weight="4"
+	/>
+</LinearLayout>
